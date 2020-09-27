@@ -1,0 +1,26 @@
+site_name: seikaoroshi
+repo_url: https://github.com/MToyokura/seikaoroshi
+edit_uri:
+theme: 
+  name: material
+  # features:
+  #   - tabs
+  palette: 
+    primary: blue
+    accent: blue
+markdown_extensions:
+  - admonition
+  - codehilite
+nav:
+  - 'index.md'
+  - 'getting-started.md'
+  - 'others.md'
+  - 'APIの詳細':
+    - 'dbtools':
+      - 'seikaoroshi.dbtools.update_shikyou_jouhou_table_from_website.md'
+      - 'seikaoroshi.dbtools.get_hibetsu_session_id.md'
+      - 'seikaoroshi.dbtools.update_hibetsu_chousa_table_from_website.md'
+    - 'datatools':
+      - 'ConnectToDatabase':
+        - 'seikaoroshi.datatools.ConnectToDatabase.md'
+        - 'seikaoroshi.datatools.ConnectToDatabase.get_df.md'
